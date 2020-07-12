@@ -222,7 +222,10 @@ body {
     top: 26px;
 }
 
-.category1_description1__text1, .category2_description2__text1, .category3_description3__text1,.category4_description4__text1 {
+.category1_description1__text1,
+.category2_description2__text1,
+.category3_description3__text1,
+.category4_description4__text1 {
     font-size: 18px;
     font-weight: 900;
     color: #222222;
@@ -230,7 +233,10 @@ body {
     text-align: left;
 }
 
-.category1_description1__text2, .category2_description2__text2, .category3_description3__text2, .category4_description4__text2 {
+.category1_description1__text2,
+.category2_description2__text2,
+.category3_description3__text2,
+.category4_description4__text2 {
     font-size: 30px;
     letter-spacing: 0.75px;
     color: #f16d7f;
@@ -267,4 +273,24 @@ body {
     background-color: #fff;
     position: absolute;
     top: 25px;
+}
+
+.container-text {
+    width: 1140px;
+    margin: 0 auto 60px;
+    text-align: center;
+}
+
+.container-text__text1 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.8;
+    letter-spacing: 0.75px;
+    color: #222222;
+}
+
+.container-text__text2 {
+    font-size: 14px;
+  letter-spacing: 0.35px;
+  color: #9f9f9f;
 }
