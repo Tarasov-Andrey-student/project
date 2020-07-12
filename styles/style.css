@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    /*    box-sizing: border-box;*/
 }
 
 body {
@@ -155,6 +156,7 @@ body {
     line-height: 42px;
     font-weight: 900;
     text-transform: uppercase;
+    text-align: left;
 }
 
 .topBanner__text_second {
@@ -164,6 +166,7 @@ body {
     line-height: 42px;
     letter-spacing: 1px;
     text-transform: uppercase;
+    text-align: left;
 }
 
 .topBanner__text_second span {
@@ -172,4 +175,96 @@ body {
     letter-spacing: 1px;
     text-transform: uppercase;
     color: #f16d7f;
+}
+
+.selecting-category {
+    width: 1140px;
+    height: 823px;
+    margin: 98px auto 100px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    display: flex;
+}
+
+.category1 {
+    width: 560px;
+    height: 542px;
+    position: relative;
+}
+
+.category2 {
+    width: 560px;
+    height: 261px;
+    position: relative;
+}
+
+.category3 {
+    width: 560px;
+    height: 261px;
+    position: relative;
+}
+
+.category4 {
+    width: 560px;
+    height: 542px;
+    position: relative;
+}
+
+.category1_description1 {
+    padding-top: 16px;
+    padding-left: 19px;
+    width: 156px;
+    height: 66px;
+    background-color: #fff;
+    position: absolute;
+    top: 26px;
+}
+
+.category1_description1__text1, .category2_description2__text1, .category3_description3__text1,.category4_description4__text1 {
+    font-size: 18px;
+    font-weight: 900;
+    color: #222222;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.category1_description1__text2, .category2_description2__text2, .category3_description3__text2, .category4_description4__text2 {
+    font-size: 30px;
+    letter-spacing: 0.75px;
+    color: #f16d7f;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.category2_description2 {
+    padding-top: 16px;
+    padding-left: 18px;
+    width: 207px;
+    height: 66px;
+    background-color: #fff;
+    position: absolute;
+    top: 25px;
+}
+
+.category3_description3 {
+    padding-top: 16px;
+    padding-left: 18px;
+    width: 144px;
+    height: 66px;
+    background-color: #fff;
+    position: absolute;
+    top: 26px;
+}
+
+.category4_description4 {
+    padding-top: 16px;
+    padding-left: 19px;
+    width: 161px;
+    height: 66px;
+    background-color: #fff;
+    position: absolute;
+    top: 25px;
 }
