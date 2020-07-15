@@ -328,7 +328,7 @@ header .search button:last-child {
     width: 261px;
     height: 364px;
     margin-bottom: 39px;
-/*    position: relative;*/
+    /*    position: relative;*/
 }
 
 .container-items__things__img {
@@ -408,4 +408,103 @@ header .search button:last-child {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.container-offer {
+    display: flex;
+
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.container-offer__stock {
+    width: 767px;
+    height: 529px;
+    background-image: url(../img/offerBg.jpg);
+    box-sizing: border-box;
+    padding-top: 146px;
+    padding-left: 39px;
+}
+
+.container-offer__stockWomen h2 {
+    font-size: 53.5px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.container-offer__stockWomen span {
+    color: #f16d7f;
+}
+
+.container-offer__stockWomen p {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.container-offer__service {
+    width: 373px;
+    height: 529px;
+    background-color: #222224;
+    box-sizing: border-box;
+    padding-top: 48px;
+    margin-bottom: 97px;
+}
+
+.container-offer__service__free,
+.container-offer__service__sales,
+.container-offer__service__quality {
+    color: #fff;
+    width: 355px;
+    margin-bottom: 35px;
+    padding-left: 111px;
+    box-sizing: border-box;
+}
+
+.container-offer__service__free {
+    background-image: url(../img/icons/truck.png);
+    background-repeat: no-repeat;
+    background-position: 36px 0px;
+}
+
+.container-offer__service__sales {
+    background-image: url(../img/icons/percent.png);
+    background-repeat: no-repeat;
+    background-position: 36px 0px;
+}
+
+.container-offer__service__quality {
+    background-image: url(../img/icons/crown.png);
+    background-repeat: no-repeat;
+    background-position: 36px 0px;
+}
+
+.container-offer__service__free h3 a,
+.container-offer__service__sales h3 a,
+.container-offer__service__quality h3 a {
+    display: block;
+    margin-bottom: 17px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #fbfbfb;
+    text-decoration: none;
+}
+
+.container-offer__service__free p,
+.container-offer__service__sales p,
+.container-offer__service__quality p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.71;
+    letter-spacing: 0.35px;
+    text-align: left;
+    color: #fbfbfb;
 }
