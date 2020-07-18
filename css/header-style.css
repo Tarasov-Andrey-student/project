@@ -10,7 +10,7 @@ header {
 }
 
 .logo {
-  width: 165px;
+  width: 100px;
   line-height: 51px;
   text-transform: uppercase;
   background: url("../img/logo.png") no-repeat;
@@ -37,6 +37,7 @@ header {
   border: 1px solid #e6e6e6;
   overflow: hidden;
   font-size: 14px;
+  margin-left: 46px;
 }
 
 header .search button:first-of-type {
