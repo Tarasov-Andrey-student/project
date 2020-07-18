@@ -6,7 +6,7 @@
 
 body {
   margin: 0 auto;
-  color: #222222;
+  color: #222224;
   font-family: "Lato", sans-serif;
   font-weight: 300;
 }
@@ -45,7 +45,7 @@ body {
   text-transform: uppercase;
   text-align: left;
   font-stretch: normal;
-  color: #222222;
+  color: #222224;
 }
 
 .topBanner__text p {
@@ -59,7 +59,7 @@ body {
   font-stretch: normal;
   font-style: normal;
   letter-spacing: 1px;
-  color: #222222;
+  color: #222224;
 }
 
 .topBanner__text p span {
@@ -81,27 +81,15 @@ body {
   display: flex;
 }
 
-.category-one {
+.category-one, .category-four {
   width: 560px;
   height: 542px;
   position: relative;
 }
 
-.category-two {
+.category-two, .category-three {
   width: 560px;
   height: 261px;
-  position: relative;
-}
-
-.category-three {
-  width: 560px;
-  height: 261px;
-  position: relative;
-}
-
-.category-four {
-  width: 560px;
-  height: 542px;
   position: relative;
 }
 
@@ -118,7 +106,7 @@ body {
 .category-one div p:first-of-type, .category-two div p:first-of-type, .category-three div p:first-of-type, .category-four div p:first-of-type {
   font-size: 18px;
   font-weight: 900;
-  color: #222222;
+  color: #222224;
   text-transform: uppercase;
   text-align: left;
 }
@@ -184,7 +172,7 @@ body {
   line-height: 1.8;
   letter-spacing: 0.75px;
   text-align: center;
-  color: #222222;
+  color: #222224;
 }
 
 .container-text p {
@@ -240,7 +228,7 @@ body {
   font-size: 14px;
   font-weight: 400;
   text-align: left;
-  color: #222222;
+  color: #222224;
   text-transform: uppercase;
   margin-bottom: 17px;
 }
@@ -283,7 +271,7 @@ body {
   line-height: 3.38;
   letter-spacing: 0.4px;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
 }
 
 .browseProduct:hover {
@@ -310,7 +298,7 @@ body {
   font-weight: 700;
   letter-spacing: 0.8px;
   text-align: left;
-  color: #ffffff;
+  color: #fff;
   text-transform: uppercase;
 }
 
@@ -323,7 +311,7 @@ body {
   font-weight: 700;
   letter-spacing: 0.8px;
   text-align: left;
-  color: #ffffff;
+  color: #fff;
   text-transform: uppercase;
 }
 

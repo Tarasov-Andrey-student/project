@@ -20,7 +20,7 @@ header {
   display: block;
   text-decoration: none;
   font-size: 27px;
-  color: #222;
+  color: #222224;
   font-weight: 400;
 }
 
@@ -44,7 +44,7 @@ header .search button:first-of-type {
   background-color: #f9f9f9;
   line-height: 38px;
   border: none;
-  color: #222222;
+  color: #222224;
   outline: none;
 }
 
@@ -120,7 +120,7 @@ header .search button:last-child:hover {
 .topNav a {
   text-transform: uppercase;
   text-decoration: none;
-  color: #222222;
+  color: #222224;
   font-weight: 700;
 }
 

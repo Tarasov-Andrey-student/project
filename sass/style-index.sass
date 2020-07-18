@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap')
 
+$_colorBlack: #222224
+$_colorPink: #f16d7f
+$_colorWhite: #fff
+$_colorGreyLight: #fbfbfb
+$_colorGreyDark: #9f9f9f
+
 *
 	margin: 0
 	padding: 0
 
 body
 	margin: 0 auto
-	color: #222222
+	color: $_colorBlack
 	font-family: 'Lato', sans-serif
 	font-weight: 300
 
@@ -30,7 +36,7 @@ body
 	padding-left: 12px
 	width: 500px
 	height: 92px
-	border-left: 12px solid #f16d7f
+	border-left: 12px solid $_colorPink
 
 .topBanner__text h1
 	height: 55px
@@ -41,7 +47,7 @@ body
 	text-transform: uppercase
 	text-align: left
 	font-stretch: normal
-	color: #222222
+	color: $_colorBlack
 
 .topBanner__text p
 	height: 37px
@@ -54,14 +60,14 @@ body
 	font-stretch: normal
 	font-style: normal
 	letter-spacing: 1px
-	color: #222222
+	color: $_colorBlack
 
 .topBanner__text p span
 	font-size: 40px
 	font-weight: 900
 	letter-spacing: 1px
 	text-transform: uppercase
-	color: #f16d7f
+	color: $_colorPink
 
 .selecting-category
 	width: 1140px
@@ -74,24 +80,14 @@ body
 	display: flex
 
 
-.category-one
+.category-one, .category-four
 	width: 560px
 	height: 542px
 	position: relative
 
-.category-two
+.category-two, .category-three
 	width: 560px
 	height: 261px
-	position: relative
-
-.category-three
-	width: 560px
-	height: 261px
-	position: relative
-
-.category-four
-	width: 560px
-	height: 542px
 	position: relative
 
 .category-one div
@@ -99,21 +95,21 @@ body
 	padding-left: 19px
 	width: 156px
 	height: 66px
-	background-color: #fff
+	background-color: $_colorWhite
 	position: absolute
 	top: 26px
 
 .category-one div p:first-of-type, .category-two div p:first-of-type, .category-three div p:first-of-type, .category-four div p:first-of-type
 	font-size: 18px
 	font-weight: 900
-	color: #222222
+	color: $_colorBlack
 	text-transform: uppercase
 	text-align: left
 
 .category-one div:nth-child(2), .category-two div:first-of-type, .category-three div:first-of-type, .category-four div:first-of-type
 	font-size: 30px
 	letter-spacing: 0.75px
-	color: #f16d7f
+	color: $_colorPink
 	font-weight: 900
 	text-transform: uppercase
 	text-align: left
@@ -123,7 +119,7 @@ body
 	padding-left: 19px
 	width: 156px
 	height: 66px
-	background-color: #fff
+	background-color: $_colorWhite
 	position: absolute
 	top: 26px
 
@@ -132,7 +128,7 @@ body
 	padding-left: 18px
 	width: 207px
 	height: 66px
-	background-color: #fff
+	background-color: $_colorWhite
 	position: absolute
 	top: 25px
 
@@ -141,7 +137,7 @@ body
 	padding-left: 18px
 	width: 144px
 	height: 66px
-	background-color: #fff
+	background-color: $_colorWhite
 	position: absolute
 	top: 26px
 
@@ -150,7 +146,7 @@ body
 	padding-left: 19px
 	width: 161px
 	height: 66px
-	background-color: #fff
+	background-color: $_colorWhite
 	position: absolute
 	top: 25px
 
@@ -165,12 +161,12 @@ body
 	line-height: 1.8
 	letter-spacing: 0.75px
 	text-align: center
-	color: #222222
+	color: $_colorBlack
 
 .container-text p
 	font-size: 14px
 	letter-spacing: 0.35px
-	color: #9f9f9f
+	color: $_colorGreyDark
 
 .container-items
 	width: 1140px
@@ -194,8 +190,8 @@ body
 	align-items: center
 	width: 123px
 	height: 39px
-	border: 1px solid #fff
-	color: #fff
+	border: 1px solid $_colorWhite
+	color: $_colorWhite
 	background: none
 
 .container-items__things__buy
@@ -213,7 +209,7 @@ body
 	font-size: 14px
 	font-weight: 400
 	text-align: left
-	color: #222222
+	color: $_colorBlack
 	text-transform: uppercase
 	margin-bottom: 17px
 
@@ -221,7 +217,7 @@ body
 	font-size: 16px
 	font-weight: bold
 	text-align: left
-	color: #f16d7f
+	color: $_colorPink
 
 .container-items__things:hover
 	box-shadow: 3px 0px 3px darkgrey
@@ -242,7 +238,7 @@ body
 	width: 212px
 	height: 48px
 	line-height: 48px
-	background-color: #f16d7f
+	background-color: $_colorPink
 	padding-left: 19px
 	font-size: 16px
 	font-weight: bold
@@ -251,7 +247,7 @@ body
 	line-height: 3.38
 	letter-spacing: 0.4px
 	text-align: center
-	color: #ffffff
+	color: $_colorWhite
 
 .browseProduct:hover
 	box-shadow: 3px 0px 3px darkgrey
@@ -274,24 +270,24 @@ body
 	font-weight: 700
 	letter-spacing: 0.8px
 	text-align: left
-	color: #ffffff
+	color: $_colorWhite
 	text-transform: uppercase
 
 .container-offer__stockWomen span
-	color: #f16d7f
+	color: $_colorPink
 
 .container-offer__stockWomen p
 	font-size: 32px
 	font-weight: 700
 	letter-spacing: 0.8px
 	text-align: left
-	color: #ffffff
+	color: $_colorWhite
 	text-transform: uppercase
 
 .container-offer__service
 	width: 373px
 	height: 529px
-	background-color: #222224
+	background-color: $_colorBlack
 	box-sizing: border-box
 	padding-top: 48px
 	margin-bottom: 97px
@@ -299,7 +295,7 @@ body
 .container-offer__service__free,
 .container-offer__service__sales,
 .container-offer__service__quality
-	color: #fff
+	color: $_colorWhite
 	width: 355px
 	margin-bottom: 35px
 	padding-left: 111px
@@ -329,7 +325,7 @@ body
 	font-weight: 400
 	letter-spacing: 0.5px
 	text-align: left
-	color: #fbfbfb
+	color: $_colorGreyLight
 	text-decoration: none
 
 .container-offer__service__free p,
@@ -340,4 +336,4 @@ body
 	line-height: 1.71
 	letter-spacing: 0.35px
 	text-align: left
-	color: #fbfbfb
+	color: $_colorGreyLight
