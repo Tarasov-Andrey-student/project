@@ -3,11 +3,9 @@
 * {
 	margin: 0;
 	padding: 0;
-	/*    box-sizing: border-box;*/
 }
 
 body {
-	/*    width: 1933px;*/
 	margin: 0 auto;
 	color: #222222;
 	font-family: 'Lato', sans-serif;
@@ -17,7 +15,6 @@ body {
 .container {
 	width: 1140px;
 	margin: auto;
-	/*background: #08cc0f;*/
 }
 
 header {
@@ -536,7 +533,6 @@ header .search button:last-child:hover {
 	background-size: cover;
 	background-position: 0px 0px;
 	margin: 0 auto 109px;
-	/*    box-sizing: border-box;*/
 }
 
 .mailing-container {
