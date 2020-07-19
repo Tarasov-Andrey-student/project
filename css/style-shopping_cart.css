@@ -111,7 +111,7 @@ main .top-header {
 .right-side form p {
   margin: 0 51px 0 47px;
   font-size: 13px;
-  font-weight: normal;
+  font-weight: 700;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.54;
@@ -139,6 +139,7 @@ main .top-header {
   outline: none;
   border: none;
   margin: 0 30px 0 60px;
+  background-color: #fff;
 }
 
 .right-side form button:hover {
@@ -186,6 +187,36 @@ main .top-header {
   text-align: right;
   color: #222222;
   text-transform: uppercase;
+}
+
+.group-button {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.group-button button {
+  width: 235px;
+  height: 50px;
+  background-color: #fff;
+  text-align: center;
+  outline: none;
+  margin: 44px 0 63px;
+  border: solid 1px #eaeaea;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+  text-transform: uppercase;
+}
+
+.group-button button:hover {
+  background-color: #eaeaea;
 }
 
 /*# sourceMappingURL=style-shopping_cart.css.map */
