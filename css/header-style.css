@@ -83,6 +83,8 @@ header .search button:last-child:hover {
   box-shadow: 3px 0 3px darkgrey; }
 
 .header__account-bar {
+  margin: 0;
+  padding: 0;
   border: none;
   outline: none;
   width: 130px;
