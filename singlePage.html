@@ -17,7 +17,8 @@
 
     <form method="get" class="search">
         <button name="Browse">Browse <img src="img/icons/fa-caret-down.png" alt="#"></button>
-        <input type="text" name="search" placeholder="Search for Item...">
+        <input type="text" name="search" id="search" placeholder="Search for Item...">
+        <label for="search"></label>
         <button><img src="img/icons/fa-search.png" alt="#"></button>
     </form>
 
@@ -66,48 +67,52 @@
     </div>
 
     <div class="description-carousel">
-        <p>WOMEN COLLECTION</p>
-        <div class="lineColor"></div>
+        <p class="women_colection">WOMEN COLLECTION</p>
         <hr>
+        <div class="lineColor"></div>
+
         <h3>Moschino Cheap And Chic</h3>
         <p>Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate
             collaborative architectures before cutting-edge services. Completely visualize parallel core competencies
             rather than exceptional portals. </p>
         <div class="material">
-            <p>MATERIAL: COTTON</p>
-            <p>DESIGNER: BINBURHAN</p>
+            <p>MATERIAL: <span>COTTON</span></p>
+            <p>DESIGNER: <span>BINBURHAN</span></p>
         </div>
-        <p>$561</p>
+        <p class="price_carousel">$561</p>
         <hr>
         <div class="groupFormCarousel">
             <form action="">
                 <div>
                     <p>CHOOSE COLOR</p>
-                    <select name="" id="">
-                        <option value=""></option>
-                        <option value=""></option>
-                        <option value=""></option>
-                        <option value=""></option>
-                        <option value=""></option>
+                    <select name="color" id="first">
+                        <option value="Red">Red</option>
+                        <option value="Blue">Blue</option>
+                        <option value="Gren">Gren</option>
+                        <option value="Gray">Gray</option>
+                        <option value="Yellow">Yellow</option>
                     </select>
+                    <label for="first"></label>
                 </div>
                 <div>
                     <p>CHOOSE SIZE</p>
-                    <select name="" id="">
-                        <option value=""></option>
-                        <option value=""></option>
-                        <option value=""></option>
-                        <option value=""></option>
-                        <option value=""></option>
+                    <select name="size" id="second">
+                        <option value="XXL">XXL</option>
+                        <option value="Medium">Medium</option>
+                        <option value="Large">Large</option>
+                        <option value="XX">XX</option>
+                        <option value="Small">Small</option>
                     </select>
+                    <label for="second"></label>
                 </div>
                 <div>
                     <p>QUANTITY</p>
-                    <input type="text" placeholder="2">
+                    <input type="text" id="source_two" placeholder="2">
+                    <label for="source_two"></label>
                 </div>
             </form>
         </div>
-        <button></button>
+        <button><img src="img/icons/red-cart.png" alt="">Add to Cart</button>
     </div>
 
     <h2 class="chapter-container-items">you may like also</h2>
@@ -203,7 +208,8 @@
                 <p>FOR OUR NEWLETTER AND PROMOTION</p>
                 <div>
                     <form method="get">
-                        <input type="email" name="login" placeholder="Enter Your Email">
+                        <input type="email" name="login" id="login_first" placeholder="Enter Your Email">
+                        <label for="login_first"></label>
                         <button>Subscribe</button>
                     </form>
 
