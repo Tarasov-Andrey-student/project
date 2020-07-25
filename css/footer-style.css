@@ -3,8 +3,7 @@ body {
   margin: 0 auto;
   color: #222224;
   font-family: "Lato", sans-serif;
-  font-weight: 300;
-}
+  font-weight: 300; }
 
 .mailing {
   height: 438px;
@@ -12,20 +11,17 @@ body {
   background-image: url(../img/blockBg-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0px 0px;
-  margin: 0 auto 109px;
-}
+  background-position: 0 0;
+  margin: 0 auto 109px; }
 
 .mailing-container {
   display: flex;
   width: 1140px;
   margin: 0 auto;
-  z-index: 20;
-}
+  z-index: 20; }
 
 .mailing-container__description {
   height: 438px;
-  width: calc(50%-0.5px);
   box-sizing: border-box;
   padding-top: 111px;
   display: flex;
@@ -34,8 +30,7 @@ body {
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.3px;
-  color: #222224;
-}
+  color: #222224; }
 
 .mailing-container__description span {
   font-size: 16px;
@@ -43,14 +38,12 @@ body {
   line-height: 1.63;
   letter-spacing: 0.4px;
   text-align: left;
-  color: #f16d7f;
-}
+  color: #f16d7f; }
 
 .mailing-container__description img {
   display: block;
   height: 83px;
-  margin-right: 28px;
-}
+  margin-right: 28px; }
 
 .mailing-container__description q {
   display: block;
@@ -62,8 +55,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.4px;
   text-align: left;
-  color: #222224;
-}
+  color: #222224; }
 
 .mailing-container__description div hr {
   width: 38px;
@@ -72,26 +64,22 @@ body {
   background-color: #d6d6d6;
   display: inline-block;
   margin-right: 13px;
-  margin-top: 41px;
-}
+  margin-top: 41px; }
 
 .mailing-container__description div hr:hover {
-  background-color: #f16d7f;
-}
+  background-color: #f16d7f; }
 
 .mailing-container__line {
   height: 438px;
   width: 1px;
-  background-color: #e3e3e3;
-}
+  background-color: #e3e3e3; }
 
 .mailing-container__subscribe {
   padding-top: 125px;
   width: 569.5px;
   display: flex;
   align-items: center;
-  flex-direction: column;
-}
+  flex-direction: column; }
 
 .mailing-container__subscribe h3 {
   font-size: 24px;
@@ -100,8 +88,7 @@ body {
   letter-spacing: 0.35px;
   text-align: center;
   color: #222224;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
 .mailing-container__subscribe p {
   font-size: 14px;
@@ -111,8 +98,12 @@ body {
   text-align: center;
   color: #222224;
   text-transform: uppercase;
-  margin-bottom: 35px;
-}
+  margin-bottom: 35px; }
+
+.mailing-container__subscribe form {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .mailing-container__subscribe input {
   width: 282px;
@@ -123,8 +114,7 @@ body {
   background-color: #e1e1e1;
   box-sizing: border-box;
   border-top-left-radius: 23px;
-  border-bottom-left-radius: 23px;
-}
+  border-bottom-left-radius: 23px; }
 
 .mailing-container__subscribe button {
   outline: none;
@@ -133,32 +123,27 @@ body {
   height: 46px;
   color: #fff;
   font-size: 14px;
-  line-height: 46px;
+  line-height: 43px;
   letter-spacing: 0.35px;
   text-align: center;
   background-color: #f16d7f;
   border-top-right-radius: 23px;
-  border-bottom-right-radius: 23px;
-}
+  border-bottom-right-radius: 23px; }
 
 .mailing-container__subscribe button:hover {
-  box-shadow: 3px 0px 3px darkgrey;
-}
+  box-shadow: 3px 0 3px darkgrey; }
 
 .container-information {
   width: 1140px;
   margin: 0 auto;
-  display: flex;
-}
+  display: flex; }
 
 .brand {
   width: 427px;
-  margin-right: 64px;
-}
+  margin-right: 64px; }
 
 .brand__logo {
-  margin-bottom: 29px;
-}
+  margin-bottom: 29px; }
 
 .brand p {
   font-size: 14px;
@@ -167,24 +152,20 @@ body {
   letter-spacing: 0.35px;
   text-align: left;
   color: #898989;
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
 
 .brand p:nth-child(3) {
-  margin-bottom: 89px;
-}
+  margin-bottom: 89px; }
 
 .brand p:nth-child(2) {
-  margin-top: 35px;
-}
+  margin-top: 35px; }
 
 .company,
 .information,
 .category {
   width: 216px;
   display: flex;
-  flex-direction: column;
-}
+  flex-direction: column; }
 
 .company h3,
 .information h3,
@@ -195,8 +176,7 @@ body {
   letter-spacing: 0.45px;
   text-align: left;
   color: #f16d7f;
-  margin-bottom: 45px;
-}
+  margin-bottom: 45px; }
 
 .company a,
 .information a,
@@ -211,34 +191,29 @@ body {
   letter-spacing: 0.4px;
   text-align: left;
   color: #898989;
-  margin-bottom: 25px;
-}
+  margin-bottom: 25px; }
 
 .copyright {
   width: 100%;
   height: 79px;
-  background-color: #e6e6e6;
-}
+  background-color: #e6e6e6; }
 
 .container-copyright {
   width: 1140px;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-}
+  justify-content: space-between; }
 
 .container-copyright div:first-of-type,
 .container-copyright div:last-of-type {
   height: 79px;
-  width: 50%;
-}
+  width: 50%; }
 
 .container-copyright div:last-of-type {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
-}
+  align-items: center; }
 
 .container-copyright div:last-of-type a {
   display: inline-block;
@@ -248,16 +223,13 @@ body {
   background-color: #fff;
   margin-right: 8px;
   text-align: center;
-  line-height: 32px;
-}
+  line-height: 32px; }
 
 .container-copyright div:last-of-type a:nth-child(2) {
-  background-color: #f16d7f;
-}
+  background-color: #f16d7f; }
 
 .container-copyright div:last-of-type a:hover {
-  background-color: #f16d7f;
-}
+  background-color: #f16d7f; }
 
 .container-copyright div:first-of-type {
   display: flex;
@@ -268,7 +240,6 @@ body {
   line-height: 2.63;
   letter-spacing: 0.4px;
   text-align: right;
-  color: #7a7a7a;
-}
+  color: #7a7a7a; }
 
 /*# sourceMappingURL=footer-style.css.map */
