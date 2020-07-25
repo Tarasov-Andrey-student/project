@@ -24,7 +24,6 @@ header {
   padding-left: 72px;
   display: block;
   text-decoration: none;
-  font-size: 27px;
   color: #222224;
   font-weight: 400; }
 
@@ -81,7 +80,7 @@ header .search button:last-child:hover {
   margin-right: 26px; }
 
 .header__cart:hover {
-  box-shadow: 3px 0px 3px darkgrey; }
+  box-shadow: 3px 0 3px darkgrey; }
 
 .header__account-bar {
   border: none;
@@ -95,7 +94,7 @@ header .search button:last-child:hover {
   text-align: center; }
 
 .header__account-bar:hover {
-  box-shadow: 3px 0px 3px darkgrey; }
+  box-shadow: 3px 0 3px darkgrey; }
 
 .headerLine {
   border-bottom: 1px solid #ececec; }
