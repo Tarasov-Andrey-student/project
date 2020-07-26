@@ -17,7 +17,7 @@ body {
 
 .container-banner {
   width: 1140px;
-  height: 389px;
+  height: 664px;
   padding-top: 276px;
   margin: 0 auto;
   background-image: url(../img/topHeaderBg.png);
@@ -28,14 +28,14 @@ body {
 .topBanner__text {
   padding-left: 12px;
   width: 500px;
-  height: 92px;
+  height: 98px;
   border-left: 12px solid #f16d7f; }
 
 .topBanner__text h1 {
   height: 55px;
   font-size: 60px;
   letter-spacing: 1.5px;
-  line-height: 43px;
+  line-height: 44px;
   font-weight: 900;
   text-transform: uppercase;
   text-align: left;
@@ -47,7 +47,6 @@ body {
   font-size: 40px;
   font-weight: 900;
   line-height: 42px;
-  letter-spacing: 1px;
   text-transform: uppercase;
   text-align: left;
   font-stretch: normal;
@@ -81,32 +80,24 @@ body {
   height: 261px;
   position: relative; }
 
-.category-one div {
-  padding-top: 16px;
-  padding-left: 19px;
-  width: 156px;
-  height: 66px;
-  background-color: #fff;
-  position: absolute;
-  top: 26px; }
-
 .category-one div p:first-of-type, .category-two div p:first-of-type, .category-three div p:first-of-type, .category-four div p:first-of-type {
   font-size: 18px;
   font-weight: 900;
   color: #222224;
   text-transform: uppercase;
-  text-align: left; }
+  text-align: left;
+  margin: 0; }
 
 .category-one div:nth-child(2), .category-two div:first-of-type, .category-three div:first-of-type, .category-four div:first-of-type {
   font-size: 30px;
-  letter-spacing: 0.75px;
+  letter-spacing: -0.25px;
   color: #f16d7f;
   font-weight: 900;
   text-transform: uppercase;
   text-align: left; }
 
 .category-one div {
-  padding-top: 16px;
+  padding-top: 0;
   padding-left: 19px;
   width: 156px;
   height: 66px;
@@ -115,7 +106,7 @@ body {
   top: 26px; }
 
 .category-two div {
-  padding-top: 16px;
+  padding-top: 0;
   padding-left: 18px;
   width: 207px;
   height: 66px;
@@ -124,7 +115,7 @@ body {
   top: 25px; }
 
 .category-three div {
-  padding-top: 16px;
+  padding-top: 0;
   padding-left: 18px;
   width: 144px;
   height: 66px;
@@ -133,7 +124,7 @@ body {
   top: 26px; }
 
 .category-four div {
-  padding-top: 16px;
+  padding-top: 0;
   padding-left: 19px;
   width: 161px;
   height: 66px;
