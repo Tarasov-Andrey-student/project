@@ -53,6 +53,11 @@ body
       a:hover
         color: #f16d7f
 
+.container_first
+  width: 1140px
+  margin: 0 auto 20px
+  padding: 0
+
 .shipping_adress
   display: inline-block
   width: 169px
@@ -70,7 +75,7 @@ body
   margin-top: 89px
   margin-bottom: 6px
   &:hover
-    color: #222222
+    color: #222224
 
 .communication
   display: flex
@@ -166,7 +171,7 @@ body
   margin-right: 165px
   label
     font-size: 12px
-    font-weight: normal
+    font-weight: 700
     font-stretch: normal
     font-style: normal
     line-height: 1.67
@@ -176,6 +181,7 @@ body
     text-transform: uppercase
     margin-top: 10px
     margin-bottom: 16px
+    cursor: pointer
     span
       color: red
       font-size: 16px
@@ -211,12 +217,17 @@ body
     text-align: left
     color: #ff0d0d
     margin-top: 22px
-    margin-bottom: 20px
+    margin-bottom: 23px
   input:not([type = "button"])
     display: inline-block
     width: 390px
     height: 45px
     border: solid 1px #eaeaea
+    padding-left: 15px
+  input:not([type = "button"]):focus
+    outline: none
+  input:not([type = "button"]):active
+    outline: none
   input:nth-of-type(3)
     width: 180px
     height: 50px
@@ -231,9 +242,16 @@ body
     letter-spacing: normal
     text-align: center
     color: #4a4a4a
-  label:nth-of-type(3)
+  input:nth-of-type(3):hover
+    box-shadow: 3px 3px 3px #ccc
+    outline: none
+  input:nth-of-type(3):focus
+    outline: none
+  input:nth-of-type(3):active
+    outline: none
+  a
     font-size: 14px
-    font-weight: 400
+    font-weight: 700
     font-stretch: normal
     font-style: normal
     line-height: 1.43
@@ -242,3 +260,30 @@ body
     color: #222222
     margin-left: 32px
     text-transform: none
+    text-decoration: none
+
+hr
+  width: 1140px
+  margin: 0 auto
+  &:last-of-type
+    margin-bottom: 93px
+  &:first-of-type
+    margin-top: 79px
+.container_top
+  width: 1140px
+  height: 72px
+  display: flex
+  justify-content: flex-start
+  margin: 0 auto
+  a
+    font-size: 16px
+    font-weight: 900
+    font-stretch: normal
+    font-style: normal
+    line-height: 4.5
+    letter-spacing: normal
+    text-align: left
+    color: #222222
+    text-decoration: none
+    text-transform: uppercase!important
+
