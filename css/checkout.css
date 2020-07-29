@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+body {
+  margin: 0 auto;
+  color: #222224;
+  font-family: "Lato", sans-serif;
+  font-weight: 300; }
+
+.top-header {
+  width: 100%;
+  background-color: #f8f3f4; }
+
+.top-header-container {
+  width: 1140px;
+  height: 148px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.list-links ul {
+  display: flex; }
+  .list-links ul li {
+    list-style-type: none;
+    text-align: center; }
+
+.top-header-container p {
+  font-size: 24px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 0.83;
+  color: #f16d7f;
+  text-transform: uppercase; }
+
+.list-links ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.43;
+  color: #636363;
+  text-transform: uppercase; }
+
+.list-links ul li a:hover {
+  color: #f16d7f; }
+
+.shipping_adress {
+  display: inline-block;
+  width: 169px;
+  height: 16px;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #222222;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  margin-top: 89px;
+  margin-bottom: 6px; }
+  .shipping_adress:hover {
+    color: #222222; }
+
+.communication {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; }
+  .communication .communication_first {
+    margin-left: 35px; }
+    .communication .communication_first h3 {
+      font-size: 13px;
+      font-weight: 700;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #222222;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+      margin-top: 33px; }
+    .communication .communication_first p {
+      font-size: 13px;
+      font-weight: 400;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.54;
+      letter-spacing: normal;
+      text-align: left;
+      color: #b3b2b2;
+      margin-bottom: 34px; }
+    .communication .communication_first label {
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 700;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 12px;
+      letter-spacing: normal;
+      text-align: right;
+      color: #222;
+      text-transform: uppercase;
+      margin-left: 15px;
+      margin-bottom: 0;
+      vertical-align: middle; }
+    .communication .communication_first input {
+      cursor: pointer;
+      vertical-align: middle;
+      border: 1px solid #000; }
+    .communication .communication_first img {
+      vertical-align: middle; }
+    .communication .communication_first a {
+      display: inline-block;
+      font-size: 13px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 13px;
+      letter-spacing: normal;
+      text-align: left;
+      color: #b3b2b2;
+      text-decoration: none;
+      vertical-align: middle; }
+    .communication .communication_first a:hover {
+      transform: scale(1.02); }
+  .communication button {
+    display: inline-block;
+    width: 180px;
+    height: 50px;
+    border: solid 1px #eaeaea;
+    background-color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a;
+    text-transform: uppercase;
+    margin-top: 38px; }
+  .communication button:hover {
+    box-shadow: 3px 3px 3px #ccc;
+    outline: none;
+    border: none; }
+  .communication button:active {
+    outline: none;
+    border: none; }
+  .communication button:focus {
+    outline: none;
+    border: 1px solid #eaeaea; }
+
+.communication_second {
+  margin-right: 165px; }
+  .communication_second label {
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222222;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 16px; }
+    .communication_second label span {
+      color: red;
+      font-size: 16px; }
+  .communication_second h3 {
+    font-size: 13px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222222;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-top: 33px; }
+  .communication_second p:first-of-type {
+    font-size: 13px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: normal;
+    text-align: left;
+    color: #b3b2b2;
+    margin-bottom: 27px; }
+  .communication_second p:last-of-type {
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.54;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ff0d0d;
+    margin-top: 22px;
+    margin-bottom: 20px; }
+  .communication_second input:not([type="button"]) {
+    display: inline-block;
+    width: 390px;
+    height: 45px;
+    border: solid 1px #eaeaea; }
+  .communication_second input:nth-of-type(3) {
+    width: 180px;
+    height: 50px;
+    border: solid 1px #eaeaea;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a; }
+  .communication_second label:nth-of-type(3) {
+    font-size: 14px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #222222;
+    margin-left: 32px;
+    text-transform: none; }
+
+/*# sourceMappingURL=checkout.css.map */

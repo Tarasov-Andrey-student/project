@@ -1,17 +1,17 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
           integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/singlePage.css">
-    <title>Single Page</title>
+    <link rel="stylesheet" href="css/checkout.css">
+    <script src="https://kit.fontawesome.com/861689887d.js" crossorigin="anonymous"></script>
+    <title>Checkout</title>
 </head>
 
 <body>
@@ -22,7 +22,8 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="dropdown">
-                <a class="btn btn-secondary dropdown-toggle dropdown-toggle__browse" href="#" role="button" id="dropdownMenuLink"
+                <a class="btn btn-secondary dropdown-toggle dropdown-toggle__browse" href="#" role="button"
+                   id="dropdownMenuLink"
                    data-toggle="dropdown"
                    aria-haspopup="true" aria-expanded="false">
                     Browse
@@ -60,7 +61,8 @@
     <img src="img/cart.png" alt="cart" class="header__cart">
 
     <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle dropdown-toggle__account" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <button class="btn btn-secondary dropdown-toggle dropdown-toggle__account" type="button" id="dropdownMenuButton"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             My Account
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -76,14 +78,12 @@
 
 <!--    <form method="get" class="search">-->
 <!--        <button name="Browse">Browse <img src="img/icons/fa-caret-down.png" alt="#"></button>-->
-<!--        <input type="text" name="search" id="search" placeholder="Search for Item...">-->
-<!--        <label for="search"></label>-->
+<!--        <input type="text" name="search" placeholder="Search for Item...">-->
 <!--        <button><img src="img/icons/fa-search.png" alt="#"></button>-->
 <!--    </form>-->
 
 <!--    <img src="img/cart.png" alt="cart" class="header__cart">-->
-<!--    <button name="accountBar" class="header__account-bar">My Account <img src="img/icons/fa-caret-down-white.png"-->
-<!--                                                                          alt="#"></button>-->
+<!--    <button name="accountBar" class="header__account-bar">My Account <img src="img/icons/fa-caret-down-white.png" alt="#"></button>-->
 <!--</header>-->
 
 <div class="headerLine"></div>
@@ -117,124 +117,54 @@
         </div>
     </div>
 
-    <div class="container-carousel">
-        <div class="carousel">
-            <a href="#"><img src="img/icons/arrow-left.png" alt="arrow left"></a>
-            <img src="img/single-page/single-img.png" alt="arrow right">
-            <a href="#"><img src="img/icons/arrow.png" alt="женская одежда"></a>
+    <div class="container">
+
+        <a href="#" class="shipping_adress">01. Shipping Adress</a>
+
+        <div class="communication">
+            <div>
+                <form method="get" class="communication_first">
+                    <h3>Check as a guest or register</h3>
+                    <p>Register with us for future convenience</p>
+                    <input type="radio" name="register" id="checkout" checked>
+                    <label for="checkout">checkout as guest</label>
+                    <br>
+                    <input type="radio" name="register" id="register">
+                    <label for="register">register</label>
+                    <h3>register and save time!</h3>
+                    <p>Register with us for future convenience</p>
+                    <a href="#"><img src="img/icons/direction.png" alt="Направление вправо"> Fast and easy checkout</a>
+                    <br>
+                    <a href="#"><img src="img/icons/direction.png" class="second_direction" alt="Направление вправо">
+                        Easy access to your order history and status</a>
+                    <br>
+                    <button>Continue</button>
+                </form>
+            </div>
+
+
+            <div>
+                <form method="get" class="communication_second">
+                    <h3>Already registed?</h3>
+                    <p>Please log in below</p>
+                    <label for="email">EMAIL ADDRESS <span><sup>&#9913;</sup></span></label>
+                    <br>
+                    <input type="text" id="email">
+                    <br>
+                    <label for="password">PASSWORD <span><sup>&#9913;</sup></span></label>
+                    <br>
+                    <input type="text" id="password">
+                    <p><span><sup>&#9913;</sup></span> Required Fileds</p>
+                    <input type="button" id="button" value="Log in">
+                    <label for="button">Forgot Password ?</label>
+                </form>
+            </div>
         </div>
     </div>
-
-    <div class="description-carousel">
-        <p class="women_colection">WOMEN COLLECTION</p>
-        <hr>
-        <div class="lineColor"></div>
-
-        <h3>Moschino Cheap And Chic</h3>
-        <p>Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate
-            collaborative architectures before cutting-edge services. Completely visualize parallel core competencies
-            rather than exceptional portals. </p>
-        <div class="material">
-            <p>MATERIAL: <span>COTTON</span></p>
-            <p>DESIGNER: <span>BINBURHAN</span></p>
-        </div>
-        <p class="price_carousel">$561</p>
-        <hr>
-        <div class="groupFormCarousel">
-            <form action="">
-                <div>
-                    <label for="first">CHOOSE COLOR</label>
-                    <select name="color" id="first">
-                        <option value="Red">Red</option>
-                        <option value="Blue">Blue</option>
-                        <option value="Gren">Gren</option>
-                        <option value="Gray">Gray</option>
-                        <option value="Yellow">Yellow</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="second">CHOOSE SIZE</label>
-                    <select name="size" id="second">
-                        <option value="XXL">XXL</option>
-                        <option value="Medium">Medium</option>
-                        <option value="Large">Large</option>
-                        <option value="XX">XX</option>
-                        <option value="Small">Small</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="source_two">QUANTITY</label>
-                    <input type="text" id="source_two" placeholder="2">
-                </div>
-            </form>
-        </div>
-        <button><img src="img/icons/red-cart.png" alt="Корзина">Add to Cart</button>
-    </div>
-
-    <h2 class="chapter-container-items">you may like also</h2>
-
-    <div class="container-items">
-
-        <div class="container-items__things">
-
-            <div class="container-items__things__buy">
-                <button><img src="img/icons/white-cart.png" alt="Корзина">Add to Cart</button>
-            </div>
-
-            <a href="#"><img src="img/single-page/female-costume.png" alt="Костюм"></a>
-
-            <div class="container-items__things__review">
-                <p>BLAZE LEGGINGS</p>
-                <p>$52.00</p>
-            </div>
-
-        </div>
-
-        <div class="container-items__things">
-
-            <div class="container-items__things__buy">
-                <button><img src="img/icons/white-cart.png" alt="Корзина">Add to Cart</button>
-            </div>
-
-            <a href="#"><img src="img/single-page/skirt.png" alt="Юбка"></a>
-
-            <div class="container-items__things__review">
-                <p>ALEXA SWEATER</p>
-                <p>$52.00</p>
-            </div>
-        </div>
-
-        <div class="container-items__things">
-
-            <div class="container-items__things__buy">
-                <button><img src="img/icons/white-cart.png" alt="Корзина">Add to Cart</button>
-            </div>
-
-            <a href="#"><img src="img/single-page/women's-trousers.png" alt="Брюки"></a>
-
-            <div class="container-items__things__review">
-                <p>AGNES TOP</p>
-                <p>$52.00</p>
-            </div>
-        </div>
-
-        <div class="container-items__things">
-
-            <div class="container-items__things__buy">
-                <button><img src="img/icons/white-cart.png" alt="Корзина">Add to Cart</button>
-            </div>
-
-            <a href="#"><img src="img/single-page/women's-jacket.png" alt="Кофта"></a>
-
-            <div class="container-items__things__review">
-                <p>SYLVA SWEATER</p>
-                <p>$52.00</p>
-            </div>
-        </div>
-
-    </div>
+    <hr class="line_down">
 
 </main>
+
 
 <footer>
     <div class="mailing">
@@ -264,8 +194,7 @@
                 <p>FOR OUR NEWLETTER AND PROMOTION</p>
                 <div>
                     <form method="get">
-                        <input type="email" name="login" id="login_first" placeholder="Enter Your Email">
-                        <label for="login_first"></label>
+                        <input type="email" name="login" placeholder="Enter Your Email">
                         <button>Subscribe</button>
                     </form>
 
@@ -345,6 +274,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
-
 </body>
+
 </html>

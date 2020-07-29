@@ -19,7 +19,7 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Ruby27-x64/bin/scss.bat" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Ruby27-x64/bin/sass.bat" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -56,7 +56,9 @@
       <workItem from="1595277622449" duration="2647000" />
       <workItem from="1595332082159" duration="2081000" />
       <workItem from="1595364125805" duration="24263000" />
-      <workItem from="1595704281556" duration="27804000" />
+      <workItem from="1595704281556" duration="28559000" />
+      <workItem from="1595877639071" duration="778000" />
+      <workItem from="1595910074240" duration="20332000" />
     </task>
     <servers />
   </component>
@@ -68,26 +70,26 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1595332611930" />
-    <state x="580" y="135" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1595707057239">
+    <state x="580" y="135" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1595912135371">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="135" key="#com.intellij.ide.macro.MacrosDialog/0.0.1600.860@0.0.1600.860" timestamp="1595707057239" />
+    <state x="580" y="135" key="#com.intellij.ide.macro.MacrosDialog/0.0.1600.860@0.0.1600.860" timestamp="1595912135371" />
     <state x="92" y="92" width="1416" height="676" key="DiffContextDialog" timestamp="1595693315031">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="92" y="92" width="1416" height="676" key="DiffContextDialog/0.0.1600.860@0.0.1600.860" timestamp="1595693315031" />
-    <state x="469" y="182" width="662" height="678" key="EditFileWatcherDialog" timestamp="1595707251682">
+    <state x="469" y="182" width="662" height="678" key="EditFileWatcherDialog" timestamp="1595960957996">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="469" y="182" width="662" height="678" key="EditFileWatcherDialog/0.0.1600.860@0.0.1600.860" timestamp="1595707251682" />
-    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1595692991289">
+    <state x="469" y="182" width="662" height="678" key="EditFileWatcherDialog/0.0.1600.860@0.0.1600.860" timestamp="1595960957996" />
+    <state x="580" y="185" key="FileChooserDialogImpl" timestamp="1595911978804">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1595692991289" />
-    <state x="301" y="75" key="SettingsEditor" timestamp="1595707253022">
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1595911978804" />
+    <state x="301" y="75" key="SettingsEditor" timestamp="1595960959968">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="301" y="75" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1595707253022" />
+    <state x="301" y="75" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1595960959968" />
     <state x="441" y="156" width="700" height="530" key="recent.locations.popup" timestamp="1595693043991">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
