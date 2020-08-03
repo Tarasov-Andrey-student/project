@@ -495,4 +495,87 @@ body {
   justify-content: center;
   align-items: center; }
 
+.container-product {
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  margin: 59px auto 0; }
+
+aside {
+  width: 243px; }
+
+.card-header, .card {
+  border: none !important;
+  outline: none !important; }
+
+.card-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 243px;
+  height: 37px;
+  border-bottom: 1px solid #ebebeb !important;
+  border-left: 5px solid #ef5b70 !important;
+  background-color: #fff;
+  margin: 0 !important;
+  padding: 0 !important;
+  margin-top: 18px !important;
+  box-sizing: border-box !important;
+  padding-left: 11px; }
+  .card-header button:focus {
+    outline: none !important;
+    text-decoration: none; }
+  .card-header .btn-link {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    color: #6f6e6e;
+    height: 37px;
+    width: 243px;
+    outline: none !important;
+    border: none !important;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    box-shadow: none; }
+  .card-header .btn {
+    border: none !important; }
+
+.collapsed {
+  width: 243px;
+  height: 37px;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  color: #6f6e6e;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  box-sizing: border-box !important;
+  text-decoration: none !important; }
+  .collapsed span {
+    display: inline-block;
+    text-decoration: none !important; }
+  .collapsed img {
+    display: inline-block; }
+
+.card-body {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column; }
+  .card-body a {
+    text-decoration: none;
+    color: #6f6e6e;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 33px; }
+
+.container-about-the-product {
+  width: 848px; }
+
 /*# sourceMappingURL=product.css.map */
