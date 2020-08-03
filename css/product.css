@@ -578,11 +578,83 @@ aside {
 .container-about-the-product {
   width: 848px; }
 
+.container-with-forms {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 27px; }
+  .container-with-forms h3 {
+    color: #6f6e6e;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase; }
+
+.trending, .size, .price {
+  width: 263px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; }
+
 .choice-of-clothes {
   width: 848px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center; }
+
+.trending ul {
+  width: 210px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  color: #6f6e6e;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-top: 25px; }
+  .trending ul li {
+    list-style: none;
+    margin-right: 15px; }
+    .trending ul li span {
+      font-family: Lato;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 26px;
+      color: #dfdfdf;
+      margin-left: 10px; }
+
+.size form {
+  width: 255px;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 25px; }
+  .size form label {
+    margin-left: 9px;
+    margin-right: 23px;
+    color: #6f6e6e;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    cursor: pointer; }
+  .size form input {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    border: 1px solid #ebebeb;
+    background-color: #ffffff; }
+
+.price div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 17px; }
+.price img {
+  margin-top: 25px; }
 
 /*# sourceMappingURL=product.css.map */
