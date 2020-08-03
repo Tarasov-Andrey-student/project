@@ -3,11 +3,80 @@
 @import "block-under-header.sass"
 @import "footer.sass"
 
+$_colorBlack: #222224
+$_colorPink: #f16d7f
+$_colorWhite: #fff
+$_colorGreyLight: #fbfbfb
+$_colorGreyDark: #9f9f9f
+
 body
   margin: 0 auto
   color: #222224
   font-family: "Lato", sans-serif
   font-weight: 300
+
+.container-items
+  width: 1140px
+  margin: 0 auto
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+
+.container-items__things
+  width: 261px
+  height: 364px
+  margin-bottom: 39px
+
+.container-items__things
+  a
+    display: flex
+    justify-content: center
+    img
+      //width: 261px
+      height: 280px
+
+.container-items__things__buy button
+  display: flex
+  justify-content: space-around
+  align-items: center
+  width: 123px
+  height: 39px
+  border: 1px solid $_colorWhite
+  color: $_colorWhite
+  background: none
+
+.container-items__things__buy
+  height: 280px
+  width: 261px
+  background-color: rgba(0, 0, 0, 0.5)
+  display: none
+  position: absolute
+
+.container-items__things__review
+  padding-top: 19px
+  padding-left: 14px
+
+.container-items__things__review p:first-of-type
+  font-size: 14px
+  font-weight: 400
+  text-align: left
+  color: $_colorBlack
+  text-transform: uppercase
+  margin-bottom: 17px
+
+.container-items__things__review p:last-of-type
+  font-size: 16px
+  font-weight: bold
+  text-align: left
+  color: $_colorPink
+
+.container-items__things:hover
+  box-shadow: 3px 0 3px darkgrey
+
+.container-items__things:hover .container-items__things__buy
+  display: flex
+  justify-content: center
+  align-items: center
 
 
 
