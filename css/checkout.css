@@ -476,7 +476,8 @@ body {
 .container_first {
   width: 1140px;
   margin: 0 auto 20px;
-  padding: 0; }
+  padding: 0;
+  margin-top: 40px; }
 
 .shipping_adress {
   display: inline-block;
@@ -500,7 +501,8 @@ body {
 .communication {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start; }
+  align-items: flex-start;
+  margin-top: 0; }
   .communication .communication_first {
     margin-left: 35px; }
     .communication .communication_first h3 {
@@ -566,7 +568,7 @@ body {
     border: solid 1px #eaeaea;
     background-color: #ffffff;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 900;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
@@ -587,7 +589,8 @@ body {
     border: 1px solid #eaeaea; }
 
 .communication_second {
-  margin-right: 165px; }
+  margin-right: 165px;
+  margin-bottom: 79px; }
   .communication_second label {
     font-size: 12px;
     font-weight: 700;
@@ -654,7 +657,7 @@ body {
     background-color: #ffffff;
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 900;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
@@ -681,13 +684,13 @@ body {
     text-transform: none;
     text-decoration: none; }
 
-hr {
+.line_down {
   width: 1140px;
-  margin: 0 auto; }
-  hr:last-of-type {
+  margin: 25px auto 30px; }
+  .line_down:last-of-type {
     margin-bottom: 93px; }
-  hr:first-of-type {
-    margin-top: 79px; }
+  .line_down:first-of-type {
+    margin-top: 25px; }
 
 .container_top {
   width: 1140px;
@@ -706,5 +709,43 @@ hr {
     color: #222222;
     text-decoration: none;
     text-transform: uppercase !important; }
+
+.card-header {
+  border: none;
+  background-color: #fff; }
+
+.accordion .card {
+  border: none;
+  outline: none; }
+
+.btn-link {
+  color: #222;
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase; }
+  .btn-link:hover {
+    text-decoration: none;
+    color: #222; }
+  .btn-link:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+    text-decoration: none; }
+
+.card {
+  border: none !important;
+  outline: none;
+  box-shadow: none; }
+
+.card-body {
+  padding: 0;
+  margin-bottom: 0; }
+
+.card-header {
+  padding: 0; }
+
+.btn {
+  border: none;
+  padding: 0; }
 
 /*# sourceMappingURL=checkout.css.map */
