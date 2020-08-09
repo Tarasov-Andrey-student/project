@@ -31,7 +31,8 @@ body {
   letter-spacing: normal;
   line-height: 0.83;
   color: #f16d7f;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-bottom: 0 !important; }
 
 .list-links ul li a {
   text-decoration: none;
