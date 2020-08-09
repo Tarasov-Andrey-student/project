@@ -212,8 +212,9 @@ body {
 
 .container-copyright div:first-of-type {
   display: flex;
-  align-items: center;
-  margin-bottom: 0 !important; }
+  align-items: center; }
+  .container-copyright div:first-of-type p {
+    margin-bottom: 0 !important; }
 
 .container-copyright__text {
   margin-bottom: 0 !important; }

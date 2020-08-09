@@ -55,7 +55,7 @@ header .search button:first-of-type {
 header .search button:first-of-type:hover {
   background-color: #f5f5f5; }
 
-.search__browse {
+.search__browse i {
   color: #838383; }
 
 header .search input {
@@ -124,13 +124,6 @@ header .search button:last-child:hover {
 
 .topNav a:not(:last-child) {
   margin-right: 46px; }
-
-.btn-secondary {
-  line-height: 38px !important; }
-
-.btn {
-  padding-bottom: 0;
-  padding-top: 0; }
 
 body {
   margin: 0 auto;
@@ -439,7 +432,9 @@ body {
   margin: 0 auto;
   color: #222224;
   font-family: "Lato", sans-serif;
-  font-weight: 300; }
+  font-weight: 300;
+  position: relative;
+  z-index: 100; }
 
 .top-header {
   width: 100%;
@@ -481,35 +476,23 @@ body {
   color: #f16d7f; }
 
 .container_first {
+  display: block;
   width: 1140px;
   margin: 0 auto 20px;
-  padding: 0;
-  margin-top: 40px; }
-
-.shipping_adress {
-  display: inline-block;
-  width: 169px;
-  height: 16px;
-  font-size: 16px;
-  font-weight: 900;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  text-align: left;
-  color: #222222;
-  text-transform: uppercase;
-  text-decoration: none !important;
-  margin-top: 89px;
-  margin-bottom: 6px; }
-  .shipping_adress:hover {
-    color: #222224; }
+  padding: 0; }
 
 .communication {
+  width: 1140px;
+  height: 0;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-top: 0; }
+  background-color: #fff;
+  overflow: hidden; }
+  .communication p {
+    margin-top: 15px; }
+  .communication form {
+    margin-bottom: 79px; }
   .communication .communication_first {
     margin-left: 35px; }
     .communication .communication_first h3 {
@@ -575,7 +558,7 @@ body {
     border: solid 1px #eaeaea;
     background-color: #ffffff;
     font-size: 14px;
-    font-weight: 900;
+    font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
@@ -596,8 +579,7 @@ body {
     border: 1px solid #eaeaea; }
 
 .communication_second {
-  margin-right: 165px;
-  margin-bottom: 79px; }
+  margin-right: 165px; }
   .communication_second label {
     font-size: 12px;
     font-weight: 700;
@@ -664,7 +646,7 @@ body {
     background-color: #ffffff;
     text-transform: uppercase;
     font-size: 14px;
-    font-weight: 900;
+    font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
@@ -691,13 +673,59 @@ body {
     text-transform: none;
     text-decoration: none; }
 
+.shipping_adress {
+  display: inline-block;
+  width: 250px;
+  height: 16px;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #222222;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  margin-top: 33px;
+  margin-bottom: 6px;
+  cursor: pointer; }
+
+#collapseOne:checked ~ .communication-form {
+  height: 450px;
+  margin-bottom: 79px;
+  transition-duration: 1s; }
+
+#collapseTwo:checked ~ .communication {
+  height: 140px;
+  transition-duration: 1s; }
+
+#collapseThree:checked ~ .communication {
+  height: 140px;
+  transition-duration: 1s; }
+
+#collapseFour:checked ~ .communication {
+  height: 140px;
+  transition-duration: 1s; }
+
+#collapseFive:checked ~ .communication {
+  height: 140px;
+  transition-duration: 1s; }
+
+#collapseSix:checked ~ .communication {
+  height: 140px;
+  transition-duration: 1s; }
+
+#collapseOne, #collapseTwo, #collapseThree, #collapseFour, #collapseFive, #collapseSix {
+  position: absolute;
+  visibility: hidden;
+  left: -999999999px; }
+
 .line_down {
   width: 1140px;
-  margin: 25px auto 30px; }
+  margin: 0 auto; }
   .line_down:last-of-type {
     margin-bottom: 93px; }
-  .line_down:first-of-type {
-    margin-top: 25px; }
 
 .container_top {
   width: 1140px;
@@ -716,43 +744,5 @@ body {
     color: #222222;
     text-decoration: none;
     text-transform: uppercase !important; }
-
-.card-header {
-  border: none;
-  background-color: #fff; }
-
-.accordion .card {
-  border: none;
-  outline: none; }
-
-.btn-link {
-  color: #222;
-  font-size: 16px;
-  font-weight: 900;
-  text-transform: uppercase; }
-  .btn-link:hover {
-    text-decoration: none;
-    color: #222; }
-  .btn-link:focus {
-    outline: none;
-    border: none;
-    box-shadow: none;
-    text-decoration: none; }
-
-.card {
-  border: none !important;
-  outline: none;
-  box-shadow: none; }
-
-.card-body {
-  padding: 0;
-  margin-bottom: 0; }
-
-.card-header {
-  padding: 0; }
-
-.btn {
-  border: none;
-  padding: 0; }
 
 /*# sourceMappingURL=checkout.css.map */
